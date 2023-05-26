@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class OdontologoServiceTest {
+public class    OdontologoServiceTest {
     private final OdontologoService odontologoService = new OdontologoService(new OdontologoDaoH2());
 
     @Test

@@ -3,9 +3,7 @@ package dao.impl;
 import dao.IDao;
 import entity.Odontologo;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
