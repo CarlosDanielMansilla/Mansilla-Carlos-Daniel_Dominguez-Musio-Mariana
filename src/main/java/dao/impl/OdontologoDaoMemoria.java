@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OdontologoDaoMemoria implements IDao<Odontologo> {
-    public static final Logger logger = Logger.getLogger(OdontologoDaoH2.class);
+    public static final Logger logger = Logger.getLogger(OdontologoDaoMemoria.class);
     private List<Odontologo> odontologos = new ArrayList<>();
 
     @Override
