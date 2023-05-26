@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f304c12-fb60-4e82-a7b8-1b0803f45356" name="Changes" comment="guardando">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Api.java" afterDir="false" />
+    <list default="true" id="0f304c12-fb60-4e82-a7b8-1b0803f45356" name="Changes" comment="agregando cosas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/OdontologoDaoMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/OdontologoDaoMemoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/OdontologoDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/OdontologoDaoH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Odontologo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Odontologo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/OdontologoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/OdontologoServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OdontologoServiceTest.deberiaAgregarOdontologo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.OdontologoServiceTest" />
+      <option name="METHOD_NAME" value="deberiaAgregarOdontologo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OdontologoServiceTest.deberiaListarTodosLosOdontologos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Examen" />
       <extension name="coverage">
@@ -97,6 +113,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OdontologoServiceTest.deberiaListarTodosLosOdontologos" />
+        <item itemvalue="JUnit.OdontologoServiceTest.deberiaAgregarOdontologo" />
         <item itemvalue="JUnit.OdontologoServiceTest" />
         <item itemvalue="Application.Api" />
       </list>
@@ -160,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685064190678</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="agregando cosas">
+      <created>1685068153545</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685068153545</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +203,7 @@
     <MESSAGE value="hice un sout" />
     <MESSAGE value="otra clase" />
     <MESSAGE value="guardando" />
-    <option name="LAST_COMMIT_MESSAGE" value="guardando" />
+    <MESSAGE value="agregando cosas" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregando cosas" />
   </component>
 </project>

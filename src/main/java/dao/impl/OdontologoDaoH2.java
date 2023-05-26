@@ -23,8 +23,8 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
             PreparedStatement ps = connection.prepareStatement("INSERT INTO ODONTOLOGOS (NumeroMatricula, Nombre, Apellido) VALUES (?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
             ps.setInt(1, odontologo.getNumeroMatricula());
-            ps.setString(3, odontologo.getNombre());
-            ps.setString(4, odontologo.getApellido());
+            ps.setString(2, odontologo.getNombre());
+            ps.setString(3, odontologo.getApellido());
             ps.execute();
 
             ResultSet rs = ps.getGeneratedKeys();
@@ -75,6 +75,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
             }
 
             LOGGER.info("Listado de todos los odontologos: " + odontologos);
+            System.out.println(odontologos);
 
         } catch (Exception e) {
             LOGGER.error(e.getMessage());
